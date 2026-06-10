@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: our-technologies
+    env: node
+    buildCommand: npm run build
+    startCommand: npm run start
+    envVars:
+      - key: NODE_ENV
+        value: production
